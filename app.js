@@ -33,7 +33,7 @@ app.use(cookieParser());
 
 // CORS
 const corsOptions = {
-  origin: ["http://reconocimientosgs.com/","http://localhost:4200/"]
+  origin: ["http://reconocimientosgs.com","http://localhost:4200/"]
 };
 app.use(cors(corsOptions));
 
@@ -54,7 +54,7 @@ app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 
 
 // default value for title local
-app.locals.title = 'Reconocimientos GS1';
+app.locals.title = 'Reconocimientos GS';
 
 
 
