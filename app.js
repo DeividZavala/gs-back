@@ -33,7 +33,7 @@ app.use(cookieParser());
 
 // CORS
 const corsOptions = {
-  origin: ['http://localhost:4200', 'http://reconocimientosgs.com/']
+  origin: ['http://reconocimientosgs.com/','http://localhost:4200']
 };
 app.use(cors(corsOptions));
 
